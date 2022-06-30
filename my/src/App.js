@@ -58,3 +58,7 @@ const handlegooglelogin = (event) =>
 }
 
 export default App;
+
+
+// here user cannot change the property of const(object) but the user can change the value of the property of const object that is why
+// const [data,setdata]  = useState({}) does not gives us error
