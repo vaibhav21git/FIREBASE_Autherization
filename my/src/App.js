@@ -19,6 +19,9 @@ const handleinput = (event) =>
    setdata({...data,...newinput})
 }
 
+// here the current value of newinput(array of objects(newinput) is assigned individually to the array of objects of (..data) without changing the property but only
+// modifying the value of objects of array individually
+
 const handlesubmit = (event) =>
 {
   signInWithEmailAndPassword(auth,data.email,data.password)
